@@ -34,7 +34,7 @@
                   <li class="pc-item">
                     <a href="/orders" class="pc-link">
                       <span class="pc-micon"><i class="ti ti-clipboard"></i></span>
-                      <span class="pc-mtext">pesanan</span>
+                      <span class="pc-mtext">Pesanan</span>
                     </a>
                   </li>
                   <li class="pc-item">

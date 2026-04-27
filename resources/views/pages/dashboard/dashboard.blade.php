@@ -26,13 +26,25 @@
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-header">
-                    <h5>Hello card</h5>
+                    <h5>ini dashboard</h5>
                 </div>
                 <div class="card-body">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Bar chart</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="bar-chart-1"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- [ sample-page ] end -->
     </div>
     <!-- [ Main Content ] end -->
+
+    <script src="{{ asset('assets/js/plugins/apexcharts.min.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/pages/chart-apex.js') }}"></script> --}}
+    @include('pages.dashboard.scripts.chart')
 @endsection
